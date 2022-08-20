@@ -1,0 +1,52 @@
+body {
+    margin:30px
+}
+.pageTopic {
+    text-align: center;
+}
+/* color */
+.colorPalette {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.colorContainer {
+    display: inline-block;
+    margin:15px;
+}
+.swatch {
+    height: 200px;
+    width: 170px;
+    border:1px solid black;
+}
+.hexcode {
+    padding:15px;
+    text-align: center;
+    border: 1px solid black;
+   border-top: none;
+   border-bottom-left-radius:7px;
+   border-bottom-right-radius:7px
+}
+.sinopia {
+    background-color: #D64000;
+}
+.orange {
+    background-color: #B9240F;
+}
+.vermilion {
+    background-color: #e60000;
+}
+.white {
+    background-color: #ffffff;
+}
+.silver {
+    background-color: #707070;
+}
+.black {
+    background-color: #000000;
+}
+/*typography*/
+.typeContainter {
+    display:inline-block;
+    margin:20px;
+}
