@@ -47,6 +47,63 @@ body {
 }
 /*typography*/
 .typeContainter {
-    display:inline-block;
-    margin:20px;
+    display:flex;
+}
+.typographyContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.largeBold {
+    font-weight: bold;
+}
+/*icons*/
+.iconContainer {
+    display: inline-block;
+    flex-direction: column;
+}
+.icons {
+    justify-content: space-between;
+    padding: 4.5%;
+    width: 3%;
+    height: auto;
+}
+/*logo*/
+.brandLogo {
+    width:50%;
+    height: auto;
+}
+
+/*buttons*/
+.compareButton {
+    width: 30%;
+    height: auto;
+    padding: 5%;
+}
+.cartButton {
+    width:30%;
+    height:auto;
+    padding: 5%;
+}
+.filterButton {
+    width: 30%;
+    height: auto;
+    padding:5%;
+}
+.buttonContainer {
+    display: flex;
+}
+.unselected {
+    padding:5%;
+    width: 30%;
+    height:auto;
+}
+.selected {
+    padding:5%;
+    width:30%;
+    height: auto;
+}
+/*images*/
+.images {
+    width:30%;
+    height:auto;
 }
