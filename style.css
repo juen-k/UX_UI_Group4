@@ -107,3 +107,17 @@ body {
     width:30%;
     height:auto;
 }
+
+/*Items Page*/
+/*nav*/
+.top_nav {
+    width:100%;
+}
+.navbar {
+    width:47.5%;
+}
+/*item*/
+.vaseItem {
+    width: 402%;
+    height: auto;
+}
