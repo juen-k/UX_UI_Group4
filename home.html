@@ -12,55 +12,74 @@
     <ph class="schoolsale column">Back to School
             <br> Sale
         </ph>
-        <button class="btnorange column">Spend US $30 
+        <button class="button orn column">Spend US $30 
             <br> & save $3
         </button>
 
-        <button class="btnorange column">Spend US $60 
+        <button class="button orn column">Spend US $60 
             <br> & save $6</button>
 
-        <button class="btnorange column">Spend US $90 
+        <button class="button orn column">Spend US $90 
             <br> & save $9</button>
     
-        <button class="btnwhite column">Shop Now</button>
+        <button class="button white column">Shop Now</button>
     </div>
 
         <div class="discount"> Max $9 off per order</div>
 
-        <div class="searchbar">
-            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-                <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
-              <img src="images/search icon.png" class="icon">
-              <img src="images/camera icon.png" class="icon">
-            </form>
+   <div class="gridSearch"> 
+    <div class="search1">search
+             <img src="images/search icon.png" class="icon"></div>
+              <div class="search2"><img src="images/camera icon.png" class="icon"></div>
+
         </div>
+    </div>
+    
+
 </head>
 
     <div class="grid-container2">
-        <div>
-        <img class="icon" src="images/back icon.png">
-      </div>
-      <div class="categories">All Categories</div>
+        <div class="categories grid-item"><img class="icon" src="images/categories.png">All Categories</div>
 
-        <div><img class="icon" src="images/back icon.png">
+        <div class="grid-item"><img class="icon" src="images/deals.png"> Deals</div>        
       </div>
-      <div class= "categories">Deals</div>
-    </div>
-    </div>
-      
     <style>
         
         
         .grid-container1 {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
+  background-color: 	#fafad2;
+  padding: 10px;
+  margin: 20px;
 }
 
 .grid-container2 {
   display: grid;
-  grid-template-columns: 10% 30% 10% 30%;
-  border: 5px black;
+  grid-template-columns: auto auto;
+  background-color: #D64000;
 }
+
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+}
+
+.gridSearch {
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+.search1 {
+    border:1px solid black;
+
+}
+
+.search2 {}
 
 .schoolsale {
     text-align: center;
@@ -76,9 +95,90 @@
         {
             width: 30px;
         }
+
+        .button  {
+            width: 60%;
+        }
+
+        .orn {
+            background-color: #ffa07a;
+            width: 70%;
+        }
+
+        .white {
+            background-color: white;
+            height: 52%;
+           flex: auto;
+        }
+
+        .categories {
+            border-left: 1px black;
+        }
+
       </style>
   </head>
-<body>
 
+  <body>
+      
+      <div class="grid-container3">
+            <div class="grid-item31">Trending Now</div>
+            <div class="grid-item32"> See more<img src="images/forwardOrange.png"></div>
+
+    </div>
+
+    <div class="grid-container4">
+            <div class="grid-item41"><img class= "image1" src= "images/image1.png" ></div>
+            <div class="grid-item42"><img class= "image2"src="images/image 2.png"></div>
+            <div class="grid-item43"><img class= "image3"src="images/image 3.png"></div>
+    </div>
+
+
+            <style>
+                
+.grid-container3 {
+    display: grid;
+  grid-template-columns: auto auto;
+  background-color: white;
+  height: 300px;
+}
+
+.grid-item31 {
+    padding: 20px;
+  font-size: 30px;
+  text-align: left;
+}
+
+.grid-item32 {
+    padding: 20px;
+  font-size: 30px;
+  text-align: right;
+}
+
+.grid-container4 {
+    display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: white;
+}
+.grid-item41 {
+    width: 10px;
+    height: 10px;
+}
+.grid-item42 {
+    width: 20px;
+}
+.grid-item43 {
+    width: 20px;
+}
+
+.image1 {
+    width: 350px;
+}
+.image2 {
+    width: 350px;
+}
+.image3 {
+    width: 350px;
+}
+            </style>
 </body>
 </html>
