@@ -1,6 +1,7 @@
 body {
-    margin:30px
+    margin:30px;
 }
+
 .pageTopic {
     text-align: center;
 }
@@ -113,13 +114,53 @@ body {
 /*Items Page*/
 /*nav*/
 .top_nav {
-    width:100%;
+    width:115%;
+}
+.bg-light {
+    background-color: #ffffff;
 }
 .navbar {
-    width:47.5%;
+    width:100%;
 }
 /*item*/
 .vaseItem {
-    width: 402%;
+    width: 100%;
     height: auto;
+}
+.itemDescription {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:30px;
+    /*justify-content: space-between;*/
+}
+.card-title {
+    /*font-size: 24px;*/
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+text-align: center;
+color: #000000;
+}
+.orginal-price {
+    /*font-size: 14px;
+    color:#707070;*/
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+text-decoration-line: line-through;
+color: #707070;
+}
+
+
+
+
+/*media query THIS SHOULD BE AT THE VERY END*/
+@media (min-width:600px) {
+
 }
