@@ -123,3 +123,9 @@ body {
     width: 402%;
     height: auto;
 }
+
+
+/*media query*/
+@media (min-width:600px) {
+    
+}
